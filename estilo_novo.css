@@ -1,0 +1,65 @@
+body {
+	background-image: url("imgs/back2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+form {
+	background-color: white;
+	margin-left: 35%;
+	margin-right: 35%;
+	/* margin-top: 10%; */
+	position: relative;
+	top: 50%;
+	transform: translate(0%, -50%);
+	padding: 2%;
+}
+
+input[type="submit"], [type="text"] {
+	width: 100%;
+}
+
+input[type="submit"] {
+	padding: 2%;
+	background-color: #04AA6D;
+	border: none;
+	color: white;
+	cursor: pointer;
+}
+
+@media all and (max-width: 768px) {  
+        
+  p {  
+    font-size: 20px;
+  }
+  
+  form {
+	margin-left: 25%;
+	margin-right: 25%;
+	position: relative; 
+	top: 50%;
+	transform: translate(0%, -50%);
+  }
+  
+  input[type="submit"] {
+	font-size: 20px;
+	}
+}
+
+@media all and (max-width: 425px) {  
+        
+  p {  
+    font-size: 15px;
+  }
+  
+  form {
+	padding: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	/* margin-top: 20%; */
+	position: relative; 
+	top: 50%;
+	transform: translate(0%, -50%);
+  }
+}
+
